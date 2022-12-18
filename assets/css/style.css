@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(../img/black-friday-elements-assortment.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #3b3c3c;
+}
+
+.container {
+  width: 50%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #c5dde7bb;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #01010142;
+}
+
+#newTask {
+  position: relative;
+  padding: 30px 20px;
+}
+#newTask input {
+  width: 75%;
+  height: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+
+#newTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #9cd424;
+  border: #616161;
+  color: #000;
+  cursor: pointer;
+  outline: none;
+}
+#tasks {
+  padding: 0px 20px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.task {
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #939697;
+  cursor: pointer;
+}
+.task span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.task button {
+  background-color: #957fc9;
+  font-size: 1.1em;
+  color: #ffffff;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.task:last-child {
+  margin-bottom: 30px;
+}
+
+.completed {
+  background-color: #89d8ff;
+  text-decoration: line-through;
+}
